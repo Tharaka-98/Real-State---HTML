@@ -7,9 +7,9 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(228, 66%, 53%);
+  /* --first-color: hsl(228, 66%, 53%); */   --first-color: hsl(227, 36%, 43%);
   --first-color-alt: hsl(228, 66%, 47%);
-  --first-color-light: hsl(228, 62%, 59%);
+  --first-color-light: hsl(228, 43%, 58%);
   --first-color-lighten: hsl(228, 100%, 97%);
   --second-color: hsl(25, 83%, 53%);
   --title-color: hsl(228, 57%, 28%);
@@ -304,7 +304,7 @@ body.dark-theme{
 .home {
   background: linear-gradient(170deg,
               hsl(0, 0%, 22%) 0%,
-              hsl(0, 0%, 6%) 30%);
+              hsl(220, 44%, 33%) 30%);
   padding-bottom: 0;
 }
 
@@ -382,20 +382,20 @@ body.dark-theme{
 }
 
 .home__orbe{
-  width: 265px;
-  height: 284px;
+  width: 255px;
+  /* height: 284px; */ height: 314px;
   background: linear-gradient(180deg,
-              hsl(0, 0%, 16%) 93%,
+              hsl(222, 40%, 26%) 93%,
               hsl(0, 0%, 67%) 100%);
-  border-radius: 135px 135px 0 0;
+  /* border-radius: 135px 135px 0 0;  */ border-radius: 12px 12px 0 0;
 }
 
 .home__img{
   position: absolute;
   width: 250px;
-  height: 300px;
+  /* height: 300px; */ height: auto;
   overflow: hidden;
-  border-radius: 125px 125px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
   display: inline-flex;
   align-items: flex-end;
   bottom: -1.5rem;
@@ -407,7 +407,7 @@ body.dark-theme{
   display: inline-block;
   background: linear-gradient(101deg,
     hsl(228, 66%, 53%),
-    hsl(228, 66%, 47%));
+    hsl(230, 42%, 52%));
   color: #fff;
   padding: 14px 28px;
   border-radius: .5rem;
@@ -532,7 +532,7 @@ body.dark-theme{
 .value__orbe{
   width: 266px;
   height: 316px;
-  background-color: hsl(228, 24%, 97%);
+  background-color: hsl(224, 61%, 94%);
   border-radius: 135px 135px 16px 16px;
 }
 
@@ -641,8 +641,8 @@ body.dark-theme{
 .contact__orbe {
   width: 266px;
   height: 316px;
-  background-color: hsl(228, 24%, 97%);
-  border-radius: 135px 135px 16px 16px;
+  background-color: hsl(224, 61%, 94%);
+  border-radius: 135px 135px 135px 135px;
 }
 
 .contact__img {
@@ -650,7 +650,7 @@ body.dark-theme{
   width: 250px;
   height: 300px;
   overflow: hidden;
-  border-radius: 125px 125px 12px 12px;
+  border-radius: 125px 125px 125px 125px;
   inset: 0;
   margin: auto;
   box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
@@ -1093,12 +1093,12 @@ body.dark-theme{
   .home__orbe{
     width: 504px;
     height: 611px;
-    border-radius: 256px 256px 0 0;
+    /* border-radius: 256px 256px 0 0; */ border-radius: 12px 12px 0 0;
   }
   .home__img{
     width: 472px;
     height: 634px;
-    border-radius: 236px 236px 12px 12px;
+    /* border-radius: 236px 236px 12px 12px; */ border-radius: 12px 12px 12px 12px;
     bottom: -2.5rem;
   }
 
@@ -1126,13 +1126,13 @@ body.dark-theme{
   .contact__orbe{
     width: 501px;
     height: 641px;
-    border-radius: 258px 258px 16px 16px;
+    /* border-radius: 258px 258px 16px 16px; */ border-radius: 258px 258px 258px 258px;
   }
   .value__img,
   .contact__img{
     width: 461px;
     height: 601px;
-    border-radius: 238px 238px 12px 12px;
+    /* border-radius: 238px 238px 12px 12px; */ border-radius: 238px 238px 238px 238px;
   }
   .value__img img,
   .contact__img img{
